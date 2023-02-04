@@ -455,6 +455,20 @@ picture > img {
 
 
 
-.banner2 {
-  position: relative;
+/*footer */
+
+footer .logo {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 50em) {
+  footer .logo {
+  display: inline-block;
+}
+  footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
 }
